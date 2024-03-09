@@ -7,11 +7,12 @@ Furthermore, we incorporated the BM25 algorithm to enhance the ranking of search
 Through these methodologies, we aimed to deliver a search engine that not only performs quite well but also delivers relevant content to its users.
 
 # Wikipedia preprocessed pages-
-We were given access to files containing already preprocessed wikipedia pages.
+We were given access to parquet files containing already preprocessed wikipedia pages. 
 
 Each wikipedia page has the following details: 
 
-title, 
+<img width="404" alt="image" src="https://github.com/beryaelio/Information-Retrieval-Project/assets/47675083/d2d3a0d2-0aea-44ec-a614-7a0986052cce">
+
 
 # Inverted Index- 
 We started with creating an inverted index for the retrieval task. We uploaded it in a pickle file. it contains the following attributes:
