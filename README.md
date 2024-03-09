@@ -8,14 +8,10 @@ Through these methodologies, we aimed to deliver a search engine that not only p
 
 # Inverted Index- 
 We started with creating an inverted index for the retrieval task. We uploaded it in a pickle file. it contains the following attributes:
-#
 posting_locs - the posting list dictionary.
-#
 doc_lengths - the doc length dictionary.
-#
 N - the number of docs in the corpus.
-#
 avgdl - the average doc length.
-#
+
 
 
