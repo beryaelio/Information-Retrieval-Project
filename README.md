@@ -16,7 +16,7 @@ Each wikipedia page has the following details:
 
 
 # Inverted Index- 
-We started with creating an inverted index for the retrieval task. We uploaded it in a pickle file. it contains the following attributes:
+We started with creating an inverted index for the title, for the retrieval task. We uploaded it in a pickle file. it contains the following attributes:
 
 posting_locs - the posting list dictionary.
 
@@ -25,6 +25,7 @@ doc_lengths - the doc length dictionary.
 N - the number of docs in the corpus.
 
 avgdl - the average doc length.
+
 
 We save the documents' lengths for the BM25 algorithm.
 
