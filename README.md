@@ -48,3 +48,17 @@ tokens = nltk.word_tokenize(query)
 stemmed_tokens = [porter.stem(token) for token in tokens if token.isalpha() and token not in all_stopwords]
 ```
 
+# Ranking Methods Used
+The methods for document retrieval we used are BM25 and pagerank for ranking. 
+
+the BM25 algorithm we implemented is based on this version:
+
+Moreover, the pagerank function is based on a function in 'GraphFrames' - a Spark package that provides DataFrame-based graphs with various graph algorithms implemented, including PageRank.
+
+Using both of these methods results in a ranking process, we managed to return relevant documents for given queries.
+
+# Packages
+NLTK ; PySpark ; pickle ; google.cloud
+
+# Built By
+Mickael Zeitoun | Yael Berkovich
