@@ -16,18 +16,9 @@ Each wikipedia page has the following details:
 
 
 # Inverted Index- 
-We started with creating an inverted index for the title, for the retrieval task. We uploaded it in a pickle file. it contains the following attributes:
+We started with creating an inverted index for the title, for the retrieval task. We uploaded it in a pickle file. 
 
-posting_locs - the posting list dictionary.
-
-doc_lengths - the doc length dictionary.
-
-N - the number of docs in the corpus.
-
-avgdl - the average doc length.
-
-
-We save the documents' lengths for the BM25 algorithm.
+We also added BM25 attribute inside the index to store the BM25 calculations that don't require the query.
 
 # Tokenization- 
 We use stemming and stopwords removal for saving an efficient set of tokens after tokenizatoin. We were already given preprocessed wiki pages, all we did was load the files, tokenize them, remove stopwords and stem the rest of the tokens. We also removed tokens that had less then 50 instances in the corpus. That's because our corpus is enourmous thus if a token only has a few instances it's probably a typo.
